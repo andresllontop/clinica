@@ -1,0 +1,63 @@
+<script src="./src/webapp/views/app-js/login.js"></script>
+<div class="back-image"></div>
+<div class="back-gradient"></div>
+<div class="sufee-login d-flex align-content-center flex-wrap">
+  <div class="container">
+    <div class="login-content">
+      <div class="login-logo">
+        <span>Login</span>
+      </div>
+      <div class="login-form">
+        <form
+          action=""
+          class="FormularioAjax"
+          method="POST"
+          data-form="save"
+          autocomplete="off"
+          enctype="multipart/form-data"
+        >
+          <div class="form-group">
+            <label>Email address</label>
+            <input
+              id="Email-reg"
+              name="Email-reg"
+              type="email"
+              class="form-control"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input
+              id="Password-reg"
+              name="Password-reg"
+              type="password"
+              class="form-control"
+              placeholder="Password"
+            />
+          </div>
+          <div class="form-group" id="RespuestaAjax"></div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" id="remember_me" name="remember_me" />
+              Recuerdame
+            </label>
+            <label class="pull-right">
+              <a href="forget">Contraseña olvidada?</a>
+            </label>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-outline-primary btn-lg btn-block"
+          >
+            Ingresar
+          </button>
+          <div class="register-link m-t-15 text-center">
+            <p>No tienes cuenta ? <a href="registrate"> Registrate aquí</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

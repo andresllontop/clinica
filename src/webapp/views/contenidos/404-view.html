@@ -1,0 +1,132 @@
+<style>
+  body {
+    background-color: rgb(28, 40, 51);
+    font-family: "Parrafos" !important;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+  }
+  #error-page {
+    display: table;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    color: #686868;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 100px 0;
+  }
+  .error-page-inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #error-page .container-fluid {
+    overflow: hidden;
+  }
+  .bg-404 {
+    background-image: url(http://localhost/hospital/src/webapp/assets/images/404-bg.png);
+    background-repeat: repeat-x;
+    background-position: center top;
+  }
+  #error-page h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .btn-error {
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #4fcccd;
+    color: #797979;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 25px 53px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+  }
+  .btn-error:hover {
+    background-color: #389999;
+    color: #fff;
+  }
+  h2 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .error-image {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .error-image img {
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+  h2 {
+    font-family: "Titulos" !important;
+    font-weight: 300;
+  }
+</style>
+<section id="error-page">
+  <div class="error-page-inner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-center">
+            <div class="bg-404">
+              <div class="error-image">
+                <img
+                  class="img-responsive"
+                  src="http://localhost/hospital/src/webapp/assets/images/404.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h2>P&Aacute;GINA NO ENCONTRADA</h2>
+            <p>
+              La p&aacute;gina que est&aacute; buscando podr&iacute;a haber sido
+              eliminada, si se hubiera cambiado su nombre.
+            </p>
+            <a href="login" class="btn btn-error"
+              >VUELVE A LA P&Aacute;GINA INICIAL</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
