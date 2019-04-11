@@ -1,0 +1,4 @@
+Options All -Indexes
+ErrorDocument 404 /hospital/src/webapp/views/contenidos/404.html
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9/]+)$ index.php?views=$1
